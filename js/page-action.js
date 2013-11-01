@@ -43,7 +43,7 @@ $(function() {
             rt, 
             replies, 
             clicks,
-            row 
+            row; 
 
         var t_output = "";    
 
