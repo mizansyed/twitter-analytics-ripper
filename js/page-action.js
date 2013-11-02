@@ -50,7 +50,7 @@ $(function() {
         t_output = "<thead><tr><th>Content</th><th>Clicks</th><th>Date</th><th>Favourites</th><th>ReTweets</th><th>Replies</th></tr></thead>";
 
         $("#analytics_tl tbody tr").each(function() {
-            $this = $(this);
+            var $this = $(this);
             content = $this.find(".entry-content").html();
             content_cleaned = content;
             if (content) {
